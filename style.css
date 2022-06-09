@@ -1,0 +1,278 @@
+*{
+    font-family:'Segoe UI';
+    text-transform:capitalize;
+    font-variant:small-caps;
+    font-weight:500;
+}
+::selection{
+    color:white;
+    background-color:#C39BD3;
+}
+::-webkit-scrollbar{
+    background:white;
+    width:5px;
+}
+::-webkit-scrollbar-button{
+    background:#F5EEF8 ;
+}
+::-webkit-scrollbar-thumb{
+    background:#C39BD3;
+}
+body{
+    scroll-behavior:smooth;
+}
+h1{
+    color:#6C3483 ;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-variant:small-caps;
+    margin:2%;
+    margin-bottom:1%;
+    -webkit-box-reflect: below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+}
+#head{
+    
+    background-color:#C39BD3;
+    padding:0.5%;
+}
+.info{
+    margin:10%;
+    margin-top:8%;
+    
+    text-align:center;
+}
+h3{
+    font-weight:600;
+    text-align:left;
+    color:#6C3483 ;
+}
+a{
+    color:#6C3483;
+    font-weight:500;
+    font-size:16px;
+    cursor:hand;
+}
+a:hover{
+    text-decoration:none;
+    color:black;
+    border-bottom:3px solid #6C3483;
+    color:#6C3483;
+    cursor:hand;
+}
+a::after,a:active,a:hover{
+    color:#6C3483;
+}
+button{
+    border-radius:0 50% 0 50%;
+    padding:1%;
+    background-color:#C39BD3;
+}
+button a{
+    color:white;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+button a:hover{
+    text-decoration:none;
+    border-bottom:none;
+    color:white;
+}
+
+#about{
+    margin:3%;
+    text-align:center;
+    padding:3%;
+    padding-left:15%;
+    padding-right:15%;
+}
+table{
+    margin:4%;
+}
+table td{
+   width:70%;
+}
+.edu{
+    margin:3%;
+    padding:3%;
+}
+.span{
+    margin:1.5%;
+    margin-top:0.5%;
+    color:white;
+    background-color:#6C3483;
+    font-weight:bold;
+    border-radius:50%;
+    padding:2%;
+}
+.carrer{
+    font-weight:bold;
+    color:#6C3483;
+    text-transform:none;
+}
+#edu h1{
+    
+    text-align:left;
+}
+#edu .eduinfo h3{
+    margin-bottom:0;
+}
+#edu .eduinfo h4,#about h4{
+    color:#6C3483;
+    font-variant: normal;
+    text-transform: none;
+    margin:4%;
+    padding:7%;
+    margin-top:0;
+    padding-top:0;
+    line-height:1.5;
+    text-align:justify;
+}
+.eduinfo{
+    width:32%;
+    padding-top:1%;
+    display:inline;
+    float:left;
+}
+#edu .eduinfo h4{
+    font-size:medium;
+}
+#portfolio h1{
+    text-align:center;
+}
+#portfolio h6{
+    color:#6C3483;
+    text-align:center;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+#portfolio h5{
+    color:#6C3483;
+    text-align: center;
+}
+.row{
+    margin:1%;
+}
+img{
+    border-radius:1%;
+}
+img:hover{
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+   transform:scale(1.01);
+}
+#code h1{
+    text-align:center;
+}
+#code .content{
+    font-size:12px;
+}
+#certificate .row .col-lg-3 h3{
+    font-size:14px;
+}
+.font{
+    font-size:14px;
+}
+ul{
+    list-style:square;
+    text-align:left;
+}
+.ul{
+    text-align:left;
+}
+.skill{
+    text-align:left;
+    margin:25%;
+    margin-top:0;
+}
+#skill h6{
+    font-weight:bolder;
+    font-size:16px;
+}
+#skill h4{
+    font-weight:bold;
+    color:#6C3483;
+}
+#skill p{
+    padding-left:20%;
+    font-weight:450;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+#hobbie{
+    padding-left:14%;
+}
+.footer
+{
+    color:#C39BD3;
+    background-color:#6C3483;
+    text-align:center;
+    font-weight:bold;
+    padding:0.3%;
+}
+.footer h5{
+    margin:0.5%;
+    font-weight:bold;
+}
+.fooer a svg{
+    font-weight:bold;
+}
+.content{
+    color:#6C3483;
+    text-align:left;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight:500;
+}
+.logo a:hover{
+    border-bottom:none;
+}
+#banner h5{
+    color:#6C3483;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.3;
+}
+#banner a:hover{
+     border-bottom:none;
+}
+.goup{
+    position:fixed;
+    width:20px;
+    height:20px;
+    bottom:20px;
+    right:15px;
+    text-decoration:none;
+    text-align:center;
+    line-height:20px;
+    color:#6C3483;
+    font-size:20px;
+    font-weight:bold;
+}
+.goup:active{
+    color:#6C3483;
+}
+.loader-container{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10000;
+    background: #fff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    font-weight:bolder;
+    font-size:32px;
+}
+.loader-container .fade-out{
+    top:-120%;
+}
+@media print {
+ 
+    html,
+    body,footer{
+        display: none;
+    }
+}
